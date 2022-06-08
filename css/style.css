@@ -1,3 +1,44 @@
-h1 {
-  color: salmon;
+body{
+  text-align: center;
+  background-color: rgb(194, 207, 204);
+}
+.columns{
+display: grid;
+justify-content: center;
+align-content: center;
+}
+.container{
+  text-align: center;
+  position: relative;
+  display: flex;
+}
+#pictures{
+  position: relative;
+  margin:5px;
+}
+.imgsize{
+  width: 150px;
+  height: 150px;
+}
+button{
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+.btn{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 25% ;
+  margin-left: 25%;
+}
+.textmiddle{
+  margin-top: 2px;
+}
+.namePlaces{
+  
+  text-align: center;
+  color: aliceblue;
+  bottom: 55px;
+  left: 15px;
+  position: absolute;
 }
